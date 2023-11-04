@@ -82,6 +82,6 @@ class UpdateUser(BaseModel):
     address: Optional[str] = None
 
 
-class RentSportsGear(BaseModel):
+class RentCar(BaseModel):
     item_count: int
     rental_duration: int
